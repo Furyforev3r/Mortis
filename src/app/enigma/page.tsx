@@ -1,4 +1,4 @@
-import styles from './enigma.module.css'
+// import styles from './enigma.module.css'
 
 export default function Enigma() {
 
