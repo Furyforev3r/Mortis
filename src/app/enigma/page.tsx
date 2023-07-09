@@ -3,7 +3,7 @@
 export default function Enigma() {
 
   return (
-      <main className={styles.main}>
+      <main>
         <h1>.. / -. . . -.. / -.-- --- ..- / .- --. .- .. -. .-.-.-</h1>
       </main>
     )
