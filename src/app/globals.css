@@ -35,13 +35,11 @@
 }
 
 body {
-    display: grid;
-    place-items: center;
     height: 100dvh;
     box-sizing: border-box;
     overflow-x: hidden;
     font-family: "Gotham SSm A", "Gotham SSm B", "Helvetica Neue", Helvetica, Arial, sans-serif;
-    background: var(--background-press);
+    background: var(--background-base);
 }
 
 * {
@@ -51,9 +49,4 @@ body {
     text-decoration: none;
     color: var(--text-base);
     transition: color 0.3s;
-}
-
-*:hover {
-    color: var(--text-subdued);
-    transition: 0.3s;
 }
