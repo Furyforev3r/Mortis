@@ -8,7 +8,7 @@ export default function Enigma() {
       <>
         <Header/>
         <main className={styles.main}>
-          <h1>.. / -. . . -.. / -.-- --- ..- / .- --. .- .. -. .-.-.-</h1>
+          <p>.. / -. . . -.. / -.-- --- ..- / .- --. .- .. -. .-.-.-</p>
           <AnswerInput/>
         </main>
       </>
