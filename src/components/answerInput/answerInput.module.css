@@ -1,0 +1,24 @@
+.form {
+	display: flex;
+	flex-direction: row;
+	gap: 0.3rem;
+}
+
+.form input {
+	outline: none;
+	background: var(--background-tinted-base);
+	border-radius: 0.3rem;
+	border: 0.1rem solid var(--background-tinted-press);
+	padding: 1rem;
+	transition: background 0.8s;
+}
+
+.form input[type="submit"] {
+	cursor: pointer;
+}
+
+
+.form input:hover {
+	background: var(--background-tinted-press);
+	transition: background 0.8s;
+}

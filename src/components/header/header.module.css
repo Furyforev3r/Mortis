@@ -1,0 +1,15 @@
+.header {
+	background: var(--background-tinted-base);
+	border-bottom: 0.1rem solid var(--background-tinted-press);
+	padding: 1.5rem;
+	display: flex;
+}
+
+.header h1 {
+	transition: color 0.3s;
+}
+
+.header h1:hover {
+	color: var(--text-subdued);
+	transition: color 0.3s;
+}
