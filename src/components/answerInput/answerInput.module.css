@@ -1,3 +1,7 @@
+.Toaster {
+	background: var(--black-color-primary);
+}
+
 .form {
 	display: flex;
 	flex-direction: row;
