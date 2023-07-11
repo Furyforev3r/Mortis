@@ -3,6 +3,6 @@ export interface EnigmaInterface {
   nextUrl: string,
 }
 
-const Enigmas: Array<EnigmaInterface> = [{answer: "ifnothingmakessense", nextUrl: "reflection"}]
+const Enigmas: Array<EnigmaInterface> = [{answer: "ifnothingmakessense", nextUrl: "enigma/reflection"}, {answer: "idontmakesense", nextUrl: "doubt"}]
 
 export default Enigmas

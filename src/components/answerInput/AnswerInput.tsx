@@ -18,7 +18,7 @@ export default function AnswerInput() {
     const filtered: Array<EnigmaInterface> = Enigmas.filter((Enigma: EnigmaInterface) => Enigma.answer == answerSent)
 
     if (filtered.length > 0) {
-      router.push("enigma/"+filtered[0].nextUrl)
+      router.push(filtered[0].nextUrl)
     } else {
       errorNotify()
     }
