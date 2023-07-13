@@ -1,11 +1,11 @@
 "use client";
 
-import { FormEvent, useState } from 'react';
+import { FormEvent, useState } from 'react'
 import styles from './answerInput.module.css'
 import toast, { Toaster } from 'react-hot-toast'
-import Enigmas, { EnigmaInterface } from './Enigmas';
-import { useRouter } from 'next/navigation';
-import { AppRouterInstance } from 'next/dist/shared/lib/app-router-context';
+import Enigmas, { EnigmaInterface } from '@/services/Enigmas'
+import { useRouter } from 'next/navigation'
+import { AppRouterInstance } from 'next/dist/shared/lib/app-router-context'
 
 const errorNotify = () => toast.error("Wrong answer!")
 export default function AnswerInput() {
