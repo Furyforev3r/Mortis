@@ -1,0 +1,27 @@
+.main {
+	height: 90%;
+}
+
+.image {
+	height: 60%;
+	width: 60%;
+}
+
+.hints {
+	display: flex;
+	flex-direction: column;
+	gap: 0.8rem;
+}
+
+.hints p {
+	font-size: 0.8rem;
+	color: var(--decorative-subdued);
+	font-weight: bold;
+	cursor: cell;
+	transition: color 1.5s;
+}
+
+.hints p:hover {
+	color: var(--decorative-base);
+	transition: color 1.5s;
+}

@@ -1,25 +1,26 @@
-import styles from './reflection.module.css'
+import styles from './doubt.module.css'
 import Header from '@/components/header/Header'
 import AnswerInput from '@/components/answerInput/AnswerInput'
 import { Metadata } from 'next'
 
 export const metadata: Metadata = {
-  title: "Mortis. - B64."
+  title: "Mortis. - it's so dark in here."
 }
 
-export default function Reflection() {
+export default function Doubt() {
   return (
       <>
         <Header/>
         <main className={styles.main}>
-          <audio controls>
-            <source src='/insidehim.mp3' type="audio/mp3"/>
-            Your browser does not support the audio element.
-          </audio>
+          <img
+            src="/doubt.jpg"
+            alt="?"
+            className={styles.image}
+          />
           <AnswerInput/>
           <ul className={styles.hints}>
-            <li><p>*Hint: See inside it.</p></li>
-          </ul>
+            <li><p>*Hint: Just a simple tweak.</p></li>
+          </ul> 
         </main>
       </>
     )
