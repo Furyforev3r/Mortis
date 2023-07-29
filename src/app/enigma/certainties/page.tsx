@@ -1,4 +1,4 @@
-import styles from './reflection.module.css'
+import styles from './certainties.module.css'
 import Header from '@/components/header/Header'
 import AnswerInput from '@/components/answerInput/AnswerInput'
 import { Metadata } from 'next'
