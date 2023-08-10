@@ -1,6 +1,6 @@
 ![FuryForever](https://pbs.twimg.com/profile_banners/1245441357709291529/1639605110/1500x500)
 
-# ❓ | Mortis - Enigma (4/??)
+# ❓ | Mortis - Enigma (4/?)
 **Do you think you can solve this riddle?**
 <!--
 ## ℹ️ | Info
